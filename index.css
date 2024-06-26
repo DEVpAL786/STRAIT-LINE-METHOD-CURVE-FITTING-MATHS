@@ -1,0 +1,78 @@
+*{
+    background: rgb(97, 133, 217);
+}
+table, th, td {
+    border: 2px solid rgb(255, 255, 255);
+    border-collapse: collapse;
+    padding: 8px;
+}
+input {
+    width: 100%;
+    box-sizing: border-box;
+}
+#h1main{
+    color: rgb(255, 255, 255);
+}
+
+#in1,#in2{
+    width: 20%;
+    color: white;
+    border-style: dashed ;
+}
+#heading-table1{
+    color: white;
+    font-size: large;
+}
+#btnn{
+    border: 3px solid white;
+    color: rgb(97, 133, 217);
+    background: white; 
+    height: 5vh;
+    font-size: 0.7rem;
+    width: 10vw;
+    cursor: pointer;
+    border-radius: 10px;
+}
+input{
+    border: none;
+    border-style: dashed;
+}
+p{
+    font-size: 1.3rem;
+}
+#p1{
+    color: white;
+    font-size: large;
+
+}
+#sumBtn{
+    border: 3px solid white;
+    color: rgb(97, 133, 217);
+    background: white; 
+    height: 5vh;
+    font-size: 0.7rem;
+    width: 10vw;
+    cursor: pointer;
+    border-radius: 10px;
+}
+h5{
+    font-size: large;
+    font-weight: bolder;
+}
+#finalresult{
+    border: 3px solid rgb(255, 255, 255);
+    width: fit-content;
+    color: white;
+}
+#result{
+    color: rgb(36, 0, 241);
+    font-size: larger;
+}
+#sumBtn:hover{
+    background-color: rgb(97, 133, 217);
+    color: white;
+}
+#btnn:hover{
+    background-color: rgb(97, 133, 217);
+    color: white;
+}

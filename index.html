@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>AMEE STRAIT LINE FIT CURVE METHOD</title>
+</head>
+<body>
+    <center><h1 id="h1main">STRAIT LINE METHOD</h1></center>
+    <br>
+    <br>
+    <hr>
+    <br>
+    <h5 id="heading-table1">INPUT TABLE FOR ADDING VALUE OF X AND Y</h5>
+
+<br>
+
+    <table id="dataTable">
+        <tr>
+            <td>X</td>
+            <td><input type="number" id="inputX" oninput="syncValues()"></td>
+        </tr>
+        <tr>
+            <td>Y</td>
+            <td><input type="number" id="inputY" oninput="syncValues()"></td>
+        </tr>
+    </table>
+    <br>
+    <center>
+    <button id="btnn" onclick="addColumn(), addRow()">ADD MORE VALUE</button>
+    </center>
+<B>
+    <hr>
+    <br><br>
+    <hr>
+    <p id="p1">EQUATIONS</p>
+    <br>
+    <div id="eq7">
+    <p>y = a + bx</p>
+    <p>∈y = Na + b∈x</p>
+    <p>∈xy = a∈x + b∈x<sup>2</sup></p>
+</div>
+    <hr>
+    <br>
+    <br>
+    <hr>
+</B>
+    <table id="value-table">
+        <thead>
+            <tr>
+                <th>x</th>
+                <th>y</th>
+                <th>x <sup>2</sup></th>
+                <th>xy</th>
+            </tr>
+        </thead>
+        <tbody id="value-table-body">
+           
+        </tbody>
+        <tfoot id="value-table-footer">
+        </tfoot>
+    </table>
+    <br>
+    <center><button id="sumBtn" onclick="calculateColumnSums()">Calculate Column Sums</button></center>
+    <hr>
+    <h5>
+        ∈y = Na + b∈x
+    </h5>
+    <h5 id="in1">=</h5>
+    <h5>
+        ∈xy = a∈x + b∈x<sup>2</sup>
+    </h5>
+    <h5 id="in2">=</h5>
+    <hr>
+    <hr>
+    <h5 id="result"></h5>
+    <hr>
+    <hr>
+    <h1 id="finalresult"></h1>
+<hr>
+    <script src="index.js"></script>
+</body>
+</html>
